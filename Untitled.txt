@@ -1,0 +1,6 @@
+Big Picture
+
+-user gives an input
+-program take that input
+-send an api call (request data)
+-Get the responce back
