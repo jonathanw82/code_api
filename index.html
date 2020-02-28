@@ -5,30 +5,39 @@
 <head>
 	<meta charset="utf-8">
 
-	
+
 	<meta name="description" content="The HTML5 Herald">
 	<meta name="author" content="SitePoint">
 
 	<link rel="stylesheet" href="css/styles.css?v=1.0">
-        <title>API</title>
+	<title>API</title>
 </head>
 
 <body>
 
 	<!--  user input -->
 
-    <p>This is the user input</p>
+	<p>This is the user input</p>
 	<input type="text" id="user_input"></input>
 
-    <!--  Call the function -->
-    <button id="trigger_function" onclick="search()">Go!</button>
+	<!--  Call the function -->
+	<button id="trigger_function" onclick="search()">Go!</button>
 
 
 	<!--  Dispay the result -->
+	<p>DESCRIPTION</p>
+	<p id="description"></p>
+
+	<p>TEMP MIN</p>
+	<p id="temp_min"></p>
+
+	<p>COUNTRY</p>
+	<p id="country"></p>
 
 
 
-    <!--  script -->
+
+	<!--  script -->
 
 	<script src="index.js"></script>
 </body>
